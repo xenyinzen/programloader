@@ -1,0 +1,12 @@
+Program = {
+	name = "test",
+	argsnum = 2,
+	args = "Num1  Num2",
+	argstype = "number number",
+
+--	dir = "",
+	usage = [[   ]],
+	intro = [[   ]],
+	
+	runtime = 5,
+}

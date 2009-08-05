@@ -1,0 +1,11 @@
+
+program = {
+	language = 'c',
+	name = 'programloader',
+	src = '*.c',
+	incdir = '., /root/apps/luasystem/lua/include, /root/apps/sdlsystem/include/SDL, /usr/include/SDL, /usr/local/include/agar',
+	libdir = '/usr/lib, /root/apps/sdlsystem/lib/, /root/apps/luasystem/lua/lib, /usr/local/lib',
+	libs = 'SDL, SDL_ttf, ag_core, ag_gui, freetype, lua5.1, m, jpeg, pthread, GL',
+	cflags='g',
+}
+
